@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohammad Razik | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+    }
+
+    /* NAVBAR */
+    nav {
+      background-color: #1F4E79;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo {
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    nav ul li a:hover {
+      color: #90CAF9;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      background: linear-gradient(135deg, #1F4E79, #2E86C1);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #BDE0FE;
+      margin-bottom: 30px;
+    }
+
+    .hero .btn {
+      background-color: white;
+      color: #1F4E79;
+      padding: 12px 30px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .hero .btn:hover {
+      background-color: #BDE0FE;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 60px 80px;
+    }
+
+    section h2 {
+      font-size: 32px;
+      color: #1F4E79;
+      margin-bottom: 10px;
+      border-bottom: 3px solid #1F4E79;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    /* ABOUT */
+    .about p {
+      font-size: 17px;
+      line-height: 1.8;
+      margin-top: 20px;
+      max-width: 750px;
+    }
+
+    /* SKILLS */
+    .skills {
+      background-color: #EAF4FB;
+    }
+
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 25px;
+    }
+
+    .skill-card {
+      background-color: #1F4E79;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 20px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    /* EDUCATION */
+    .edu-card {
+      background: white;
+      border-left: 5px solid #1F4E79;
+      padding: 20px 25px;
+      margin-top: 25px;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      max-width: 600px;
+    }
+
+    .edu-card h3 {
+      font-size: 20px;
+      color: #1F4E79;
+    }
+
+    .edu-card p {
+      color: #555;
+      margin-top: 5px;
+    }
+
+    /* PROJECTS */
+    .projects {
+      background-color: #EAF4FB;
+    }
+
+    .project-grid {
+      display: flex;
+      gap: 25px;
+      margin-top: 25px;
+      flex-wrap: wrap;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      width: 320px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      border-top: 4px solid #1F4E79;
+    }
+
+    .project-card h3 {
+      font-size: 18px;
+      color: #1F4E79;
+      margin-bottom: 10px;
+    }
+
+    .project-card p {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #D6E4F0;
+      color: #1F4E79;
+      padding: 4px 10px;
+      border-radius: 10px;
+      font-size: 13px;
+      margin-top: 12px;
+      margin-right: 5px;
+    }
+
+    /* CONTACT */
+    .contact-info {
+      margin-top: 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .contact-item {
+      font-size: 17px;
+      color: #333;
+    }
+
+    .contact-item span {
+      font-weight: bold;
+      color: #1F4E79;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #1F4E79;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Mohammad Razik</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Mohammad Razik</h1>
+    <p>IT Engineer | Python Developer | Web Developer</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a B.Tech Information Technology graduate (2026) from Jaunpur, Uttar Pradesh.
+      I am passionate about technology and eager to start my career in the IT industry.
+      I have basic knowledge of Python, HTML, and CSS and I am a quick learner who loves
+      to take on new challenges and grow professionally.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">Python</div>
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">MS Office</div>
+      <div class="skill-card">Data Entry</div>
+      <div class="skill-card">Problem Solving</div>
+      <div class="skill-card">Quick Learner</div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-card">
+      <h3>B.Tech — Information Technology</h3>
+      <p>Graduation Year: 2026</p>
+      <p>Jaunpur, Uttar Pradesh</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+          Designed and developed this portfolio website using HTML and CSS.
+          Includes sections for About, Skills, Education, Projects, and Contact.
+          Fully structured and styled without any framework.
+        </p>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Student Result Management</h3>
+        <p>
+          A Python console application to manage student results.
+          Features include adding student data, displaying results,
+          calculating percentage and grade automatically.
+        </p>
+        <span class="tag">Python</span>
+        <span class="tag">Console App</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <div class="contact-item"><span>Phone:</span> +91 9517151599</div>
+      <div class="contact-item"><span>Email:</span> razik8785@gmail.com</div>
+      <div class="contact-item"><span>Location:</span> Jaunpur, Uttar Pradesh</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Mohammad Razik. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
