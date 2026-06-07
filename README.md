@@ -2,7 +2,7 @@
 # 👨‍💻 Personal Portfolio Website
 
 ## 🌐 Live Demo
-Check out my live portfolio here: **[Mohammad Rajik - Portfolio](https://raziikshaikh.github.io/portfolio-website/)**
+Check out my live portfolio here: **[mohdrajik - Portfolio](https://mohdrajik.github.io/portfolio-website/)**
 
 ## 📖 About This Project
 This is a clean, responsive, and lightweight personal portfolio website built to showcase my skills, academic projects, internship experience, and educational background[span_1](start_span)[span_1](end_span). It serves as my digital resume for recruiters and collaborators.
